@@ -19,15 +19,12 @@ class ContactTableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
     }
     
     
     @IBAction func updatePressed(_ sender: Any) {
 //        alert()
         performSegue(withIdentifier: "sendDataForward", sender: self)
-        
-        
     }
     
     override func tableView(_ tableView: UITableView, willSelectRowAt indexPath: IndexPath) -> IndexPath? {
